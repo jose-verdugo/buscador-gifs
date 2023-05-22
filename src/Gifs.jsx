@@ -1,7 +1,7 @@
 function Gifs({ gif }) {
   return (
     <div>
-      <img src={gif.images.downsized_medium.url} alt='Gif' />
+      <img src={gif.images.fixed_width.url} alt={gif.title} />
     </div>
   )
 }
